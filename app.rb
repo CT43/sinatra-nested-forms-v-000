@@ -4,8 +4,8 @@ module FormsLab
   class App < Sinatra::Base
 
     get '/' do
-      erb :index
-    end 
+      erb :'pirates/index'
+    end
 
   end
 end
